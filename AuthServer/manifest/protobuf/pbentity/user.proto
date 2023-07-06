@@ -1,0 +1,42 @@
+syntax ="proto3";
+
+package pbentity;
+option go_package = "./pbentity;pbentity";
+message Info {
+      int64 uid = 1; // uid
+      string lark_id = 2; // 账户ID
+      int32 status = 3; // 用户状态
+      string nickname = 4; // 昵称
+      string firstname = 5; // firstname
+      string lastname = 6; // lastname
+      int32 gender = 7; // 性别
+      int64 birth_ts = 8; // 生日
+      string mobile = 9; // 手机号
+      int64 city_id = 10; // 城市ID
+      AvatarInfo avatar = 11; // 头像
+    }
+message AvatarInfo {
+      int64 owner_id = 1;
+      AVATAR_OWNER owner_type = 2;
+      string avatar_small = 3;
+      string avatar_medium = 4;
+      string avatar_large = 5;
+}
+enum PLATFORM_TYPE{
+  UNKNOWN_PLATFORM_TYPE = 0;
+  IOS = 1;
+  ANDROID = 2;
+  MAC = 3;
+  WINDOWS = 4;
+  WEB = 5;
+}
+enum AVATAR_OWNER{
+  UNKNOWN_AVATAR_OWNER = 0;
+  USER_AVATAR = 1; // 用户头像
+  CHAT_AVATAR = 2; // 群头像
+}
+enum ACCOUNT_TYPE{
+  UNKNOWN_ACCOUNT_TYPE = 0;
+  MOBILE = 1; // 手机登录
+  LARK = 2; // lark账户登录
+}
