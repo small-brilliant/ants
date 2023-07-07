@@ -2,6 +2,7 @@ package main
 
 import (
 	_ "AuthServer/internal/packed"
+	_ "AuthServer/manifest/config"
 
 	_ "AuthServer/internal/logic"
 

@@ -13,6 +13,9 @@ import (
 type (
 	IUser interface {
 		SignUp(ctx context.Context, req *pb_auth.SignUpReq) (res *pb_auth.SignUpResp, err error)
+		SignIn(ctx context.Context, req *pb_auth.SignInReq) (res *pb_auth.SignInResp, err error)
+		RefreshToken(ctx context.Context, req *pb_auth.RefreshTokenReq) (res *pb_auth.RefreshTokenResp, err error)
+		SignOut(ctx context.Context, req *pb_auth.SignOutReq) (res *pb_auth.SignOutResp, err error)
 	}
 )
 

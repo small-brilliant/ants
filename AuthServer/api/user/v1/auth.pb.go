@@ -10,7 +10,7 @@ import (
 	reflect "reflect"
 	sync "sync"
 
-	pbentity "./pbentity"
+	pbentity "AuthServer/api/pbentity"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 )
