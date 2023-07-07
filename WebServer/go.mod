@@ -9,6 +9,11 @@ require (
 )
 
 require (
+	github.com/clbanning/mxj v1.8.5-0.20200714211355-ff02cfb8ea28 // indirect
+	github.com/gomodule/redigo v1.8.5 // indirect
+)
+
+require (
 	github.com/BurntSushi/toml v1.1.0 // indirect
 	github.com/aliyun/alibaba-cloud-sdk-go v1.61.18 // indirect
 	github.com/buger/jsonparser v1.1.1 // indirect
@@ -18,6 +23,7 @@ require (
 	github.com/go-errors/errors v1.0.1 // indirect
 	github.com/go-logr/logr v1.2.4 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
+	github.com/gogf/gf v1.16.9
 	github.com/golang/mock v1.6.0 // indirect
 	github.com/gorilla/websocket v1.5.0 // indirect
 	github.com/grokify/html-strip-tags-go v0.0.1 // indirect

@@ -1,11 +1,14 @@
 package main
 
 import (
-	_ "ants/internal/packed"
+	_ "WebServer/internal/packed"
+	_ "WebServer/manifest/config"
+
+	_ "WebServer/internal/logic"
+
+	"WebServer/internal/cmd"
 
 	"github.com/gogf/gf/v2/os/gctx"
-
-	"ants/internal/cmd"
 )
 
 func main() {

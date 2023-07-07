@@ -24,7 +24,7 @@ func (*Controller) SignUp(ctx context.Context, req *pb_auth.SignUpReq) (res *pb_
 }
 
 func (*Controller) SignIn(ctx context.Context, req *pb_auth.SignInReq) (res *pb_auth.SignInResp, err error) {
-	return nil, gerror.NewCode(gcode.CodeNotImplemented)
+	return service.User().SignIn(ctx, req)
 }
 
 func (*Controller) RefreshToken(ctx context.Context, req *pb_auth.RefreshTokenReq) (res *pb_auth.RefreshTokenResp, err error) {
