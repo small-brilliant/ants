@@ -19,6 +19,7 @@ func int() {
 
 func (*sUser) SignUp(ctx context.Context, req *pb_auth.SignUpReq) (res *pb_auth.SignUpResp, err error) {
 	fmt.Print("SignUp")
+	
 	return &pb_auth.SignUpResp{Msg: "not implement"}, nil
 }
 

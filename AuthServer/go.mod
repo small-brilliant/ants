@@ -43,6 +43,7 @@ require (
 	github.com/gogf/gf/contrib/config/nacos/v2 v2.4.4
 	github.com/gogf/gf/contrib/registry/etcd/v2 v2.4.4
 	github.com/gogf/gf/contrib/registry/file/v2 v2.4.4 // indirect
+	github.com/golang-jwt/jwt/v4 v4.5.0
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/gorilla/websocket v1.5.0 // indirect
 	github.com/grokify/html-strip-tags-go v0.0.1 // indirect
