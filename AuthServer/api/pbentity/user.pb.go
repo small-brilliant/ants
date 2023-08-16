@@ -182,17 +182,17 @@ type Info struct {
 	sizeCache     protoimpl.SizeCache
 	unknownFields protoimpl.UnknownFields
 
-	Uid       int64       `protobuf:"varint,1,opt,name=uid,proto3" json:"uid,omitempty" dc:"uid"`                       // uid
-	LarkId    string      `protobuf:"bytes,2,opt,name=lark_id,json=larkId,proto3" json:"lark_id,omitempty" dc:"账户ID"`   // 账户ID
-	Status    int32       `protobuf:"varint,3,opt,name=status,proto3" json:"status,omitempty" dc:"用户状态"`                // 用户状态
-	Nickname  string      `protobuf:"bytes,4,opt,name=nickname,proto3" json:"nickname,omitempty" dc:"昵称"`               // 昵称
-	Firstname string      `protobuf:"bytes,5,opt,name=firstname,proto3" json:"firstname,omitempty" dc:"firstname"`      // firstname
-	Lastname  string      `protobuf:"bytes,6,opt,name=lastname,proto3" json:"lastname,omitempty" dc:"lastname"`         // lastname
-	Gender    int32       `protobuf:"varint,7,opt,name=gender,proto3" json:"gender,omitempty" dc:"性别"`                  // 性别
-	BirthTs   int64       `protobuf:"varint,8,opt,name=birth_ts,json=birthTs,proto3" json:"birth_ts,omitempty" dc:"生日"` // 生日
-	Mobile    string      `protobuf:"bytes,9,opt,name=mobile,proto3" json:"mobile,omitempty" dc:"手机号"`                  // 手机号
-	CityId    int64       `protobuf:"varint,10,opt,name=city_id,json=cityId,proto3" json:"city_id,omitempty" dc:"城市ID"` // 城市ID
-	Avatar    *AvatarInfo `protobuf:"bytes,11,opt,name=avatar,proto3" json:"avatar,omitempty" dc:"头像"`                  // 头像
+	Uid       int64       `protobuf:"varint,1,opt,name=uid,proto3" json:"uid,omitempty" dc:"uid" dc:"uid" dc:"uid" dc:"uid" dc:"uid"`                                          // uid
+	LarkId    string      `protobuf:"bytes,2,opt,name=lark_id,json=larkId,proto3" json:"lark_id,omitempty" dc:"账户ID" dc:"账户ID" dc:"账户ID" dc:"账户ID" dc:"账户ID"`                  // 账户ID
+	Status    int32       `protobuf:"varint,3,opt,name=status,proto3" json:"status,omitempty" dc:"用户状态" dc:"用户状态" dc:"用户状态" dc:"用户状态" dc:"用户状态"`                               // 用户状态
+	Nickname  string      `protobuf:"bytes,4,opt,name=nickname,proto3" json:"nickname,omitempty" dc:"昵称" dc:"昵称" dc:"昵称" dc:"昵称" dc:"昵称"`                                      // 昵称
+	Firstname string      `protobuf:"bytes,5,opt,name=firstname,proto3" json:"firstname,omitempty" dc:"firstname" dc:"firstname" dc:"firstname" dc:"firstname" dc:"firstname"` // firstname
+	Lastname  string      `protobuf:"bytes,6,opt,name=lastname,proto3" json:"lastname,omitempty" dc:"lastname" dc:"lastname" dc:"lastname" dc:"lastname" dc:"lastname"`        // lastname
+	Gender    int32       `protobuf:"varint,7,opt,name=gender,proto3" json:"gender,omitempty" dc:"性别" dc:"性别" dc:"性别" dc:"性别" dc:"性别"`                                         // 性别
+	BirthTs   int64       `protobuf:"varint,8,opt,name=birth_ts,json=birthTs,proto3" json:"birth_ts,omitempty" dc:"生日" dc:"生日" dc:"生日" dc:"生日" dc:"生日"`                        // 生日
+	Mobile    string      `protobuf:"bytes,9,opt,name=mobile,proto3" json:"mobile,omitempty" dc:"手机号" dc:"手机号" dc:"手机号" dc:"手机号" dc:"手机号"`                                     // 手机号
+	CityId    int64       `protobuf:"varint,10,opt,name=city_id,json=cityId,proto3" json:"city_id,omitempty" dc:"城市ID" dc:"城市ID" dc:"城市ID" dc:"城市ID" dc:"城市ID"`                // 城市ID
+	Avatar    *AvatarInfo `protobuf:"bytes,11,opt,name=avatar,proto3" json:"avatar,omitempty" dc:"头像" dc:"头像" dc:"头像" dc:"头像" dc:"头像"`                                         // 头像
 }
 
 func (x *Info) Reset() {

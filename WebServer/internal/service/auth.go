@@ -13,6 +13,7 @@ import (
 type (
 	IAuth interface {
 		SingIn(ctx context.Context, req *v1.SingInReq) (res *v1.SingInRes, err error)
+		SingUp(ctx context.Context, req *v1.SingUpReq) (res *v1.SingUpRes, err error)
 	}
 )
 
